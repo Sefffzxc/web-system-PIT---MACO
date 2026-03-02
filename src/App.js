@@ -10,7 +10,7 @@ import ServicesPage from './components/ServicesPage';
 import AboutPage from './components/AboutPage';
 import 'boxicons/css/boxicons.min.css';
 
-// Create a layout component for authentication pages
+// Create a layout component for authentication pagess
 const AuthLayout = ({ isLoginActive, onLoginClick, onRegisterClick, onLogin, onRegister }) => {
   return (
     <div className="wrapper">
