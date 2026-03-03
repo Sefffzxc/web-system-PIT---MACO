@@ -88,7 +88,7 @@ function App() {
   };
 
   const handleRegister = (userData) => {
-    // Check if email already exists
+    // Check if indeed email already exists
     if (users.some(user => user.email === userData.email)) {
       return false;
     }
